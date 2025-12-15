@@ -1,0 +1,92 @@
+# =====================
+# OS / Editor junk
+# =====================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code (keep the shareable bits)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtualenvs
+.venv/
+venv/
+ENV/
+env/
+
+# packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =====================
+# JavaScript / Node
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build outputs (common frameworks)
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# env files (usually secrets)
+.env
+.env.*
+!.env.example
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Notes
+# =====================
+notes.txt
+notes/
+
+# =====================
+# Other
+# =====================
+tmp/
+unifi_profile_live/
