@@ -90,3 +90,11 @@ notes/
 # =====================
 tmp/
 unifi_profile_live/
+__pycache__/
+*.pyc
+url_state.json
+data/
+*.sqlite3
+dist/
+build/
+*.egg-info/
